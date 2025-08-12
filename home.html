@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="img/logo.png" alt="logo">
+      <h3>COFFEE CITY</h3>
+    </div>
+    <ul class="menus">
+      <li>Product</li>
+      <li>Special Offer</li>
+      <li>The Process</li>
+      <li>Packing</li>
+      <li>About</li>
+    </ul>
+    <div class="btn">
+      <button>Log in / Sign up</button>
+    </div>
+  </nav>
+
+  <div class="hero-section">
+    <div class="herof">
+      <h1>COFFEE CITY</h1>
+      <h2>A coffee store</h2>
+      <p>Straight to your doorstep. we don’t roast our beans until we have your order.<br>
+        Every order is roasted and shipped the same day.</p>
+      <div class="bbn">
+        <button id="special-btn">Explore our products</button>
+        <button>Log in / Sign up</button>
+      </div>
+      <div class="figures">
+        <div class="fig fig-lines">
+          <label>Our Products</label>
+          <h4>+1000</h4>
+        </div>
+        <div class="fig fig-lines">
+          <label>Total Sales</label>
+          <h4>+340k</h4>
+        </div>
+        <div class="fig">
+          <label>Total Revenue</label>
+          <h4>+383k</h4>
+        </div>
+      </div>
+    </div>
+    <div class="pic">
+      <img src="img/fp.png" alt="jk">
+    </div>
+  </div> 
+  <div class="bg">
+  </div> 
+<!-- <div class="coffee-shape">
+    <div class="text-line">
+      Coffee &nbsp; Coffee &nbsp; Coffee &nbsp; Coffee &nbsp; Coffee
+    </div>
+  </div> -->
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="img/spice.png" alt="Spice Iceland Blend">
+      <p class="category">Blend</p>
+      <h3>Spice iceland blend</h3>
+      <p class="price">$13</p>
+      <div class="actions">
+        <a href="#" class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></a>
+        <i class="far fa-heart"></i>
+      </div>
+    </div> 
+
+    <div class="product-card">
+      <img src="img/hair.png" alt="Hair Blender Coffee">
+      <p class="category">Blend</p>
+      <h3>Hair blender coffe</h3>
+      <p class="price">$11</p>
+      <div class="actions">
+        <a href="#" class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></a>
+        <i class="far fa-heart"></i>
+      </div>
+    </div> 
+
+    <div class="product-card">
+      <img src="img/col.png" alt="Col Brew Blend">
+      <p class="category">Blend</p>
+      <h3>Col brew blend</h3>
+      <p class="price">$16</p>
+      <div class="actions">
+        <a href="#" class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></a>
+        <i class="far fa-heart"></i>
+      </div>
+    </div> 
+
+    <div class="product-card">
+      <img src="img/puente.png" alt="Honduras EL Puente">
+      <p class="category">Single origin</p>
+      <h3>Honduras EL Puente</h3>
+      <p class="price">$80</p>
+      <div class="actions">
+        <a href="#" class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></a>
+        <i class="far fa-heart"></i>
+      </div>
+    </div>
+  </div>  
+
+  <div class="h">
+    <div class="word">
+      <h2>Check out our <br> best coffe beans</h2>
+      <button>Explore our products <i class="fas fa-arrow-right"></i></button>
+    </div>
+    <div class="h-img"> <img src="img/bean bag.png" alt="bean-bag"></div>
+  </div> 
+
+
+  <div class="spec-prod">
+    <h2>Weekend special products</h2>
+    <p>Check out our special product that you can get with %10 OFF</p>
+  </div>
+  <div class="opts">
+    <p>Accessories</p>
+    <p>Coffee beans</p>
+    <p>Apparel</p>
+    <p id="ice">Ice coffee</p>
+    <p>Instant Coffee</p>
+  </div>
+
+
+  <div class="cont">
+    <div class="card">
+      <div class="discount-tag top-right">%10</div>
+      <img src="img/french.png" alt="French Press" class="product-img" id="pro-img">
+      <h2>French press</h2>
+      <p class="price"><del>$15.88</del> <span class="discounted">$10.22</span></p>
+      <div class="actions">
+        <a href="#" class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></a>
+        <i class="far fa-heart"></i>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="discount-tag top-left">%20</div>
+      <img src="img/ice.png" alt="Ice Coffee" class="product-img">
+      <h2>Ice coffee</h2>
+      <p class="price"><del>$10.22</del> <span class="discounted">$5.00</span></p>
+      <div class="actions">
+        <a href="#" class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></a>
+        <i class="far fa-heart"></i>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="discount-tag top-right">%10</div>
+      <img src="img/new.png" alt="Ember Cup" class="product-img">
+      <h2>NEW. Ember cup</h2>
+      <p class="price"><del>$9.66</del> <span class="discounted">$6.48</span></p>
+      <div class="actions">
+        <a href="#" class="add-to-cart">Add to cart <i class="fas fa-arrow-right"></i></a>
+        <i class="far fa-heart"></i>
+      </div>
+    </div>
+  </div>  
+
+  <!-- <div class="coffee-shape">
+    <div class="text-line">
+      Coffee &nbsp; Coffee &nbsp; Coffee &nbsp; Coffee &nbsp; Coffee
+    </div>
+  </div> -->
+
+  <div class="sec-last">
+    <img src="img/bean bag.png" alt="bean-bag" class="f-img">
+    <div class="last-sec-boxes">
+      <div class="sec-body">
+        <h2>We care about the quality of<br>
+          our products</h2>
+        <p>Drinking coffee is one of the most global things you do each days here i can<br>
+          spend a long and comfortable time with this workspace tocilities </p>
+      </div>
+      <div class="box">
+        <div class="boxes">
+          <img src="img/Group_light.png" alt="communty">
+          <div class="box-words">
+            <h3>Active community</h3>
+            <p>You can reach out whenever you want</p>
+          </div>
+        </div>
+        <div class="boxes">
+          <img src="img/Frame 45.png" alt="communty">
+          <div class="box-words">
+            <h3>Best product design</h3>
+            <p>We worked a lot to make a great experience</p>
+          </div>
+        </div>
+        <div class="boxes">
+          <img src="img/Frame 46.png" alt="communty">
+          <div class="box-words">
+            <h3>Premium quality</h3>
+            <p>A premium quality coffee is what our customers closerve</p>
+          </div>
+        </div>
+        <div class="boxes">
+          <img src="img/Map@2x.png" alt="communty">
+          <div class="box-words">
+            <h3>The best material</h3>
+            <p>Our product is made by premium materials</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+
+  <footer>
+    <div class="f-foot">
+      <h3>Privacy</h3>
+      <p>Terms of Use</p>
+      <p>Privacy Policy</p>
+      <p>cookies</p>
+    </div>
+    <div class="f-foot">
+      <h3>Services</h3>
+      <p>Shop</p>
+      <p>Order Ahead</p>
+      <p>Menu</p>
+    </div>
+    <div class="f-foot">
+      <h3>About Us</h3>
+      <p>Find a Location</p>
+      <p>Our Story</p>
+    </div>
+    <div class="f-foot">
+      <h3>Information</h3>
+      <p>Plans & pricing</p>
+      <p>Jobs</p>
+      <p>Sell your product</p>
+    </div>
+    <div class="fif-foot">
+      <h3>Social Media</h3>
+      <div class="fif-icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+  </footer> 
+  <div class="under-last">
+    <p>Copyright 2024, coffeecity </p>
+    <h3>Made By Hanks</h3>
+  </div> 
+</body>
+
+</html>
+
+</body>
+
+</html>
